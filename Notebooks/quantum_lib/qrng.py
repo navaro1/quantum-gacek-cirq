@@ -1,6 +1,7 @@
 import cirq
 import numpy as np
 
+
 class QuantumRandomNumberGenerator:
     measurement_gate_name = 'qrng_measure'
     qubit_name_prefix = 'qrng_'
