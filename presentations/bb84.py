@@ -34,6 +34,7 @@ bob_guess_decode = simulation_result.measurements["bob_measurement"]
 
 print("Bob:", "Hey Alice, I received and measured state you've sent me!")
 
+# Step 4
 b_matching_indices = alice_b == bob_b
 alice_kept_a = alice_a[b_matching_indices]
 bob_kept_a = bob_guess_decode[b_matching_indices]
